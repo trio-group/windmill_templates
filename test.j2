@@ -208,7 +208,7 @@
                                                     },
                                                     "content": [
                                                         {
-                                                            "text": "Firma XYZ",
+                                                            "text": "{{ customer_company }}",
                                                             "type": "text"
                                                         }
                                                     ]
@@ -220,7 +220,7 @@
                                                     },
                                                     "content": [
                                                         {
-                                                            "text": "Frau Mustermann",
+                                                            "text": "{{ customer_contact }}",
                                                             "type": "text"
                                                         }
                                                     ]
@@ -232,13 +232,13 @@
                                                     },
                                                     "content": [
                                                         {
-                                                            "text": "mustermann@firmaxyz.de",
+                                                            "text": "{{ customer_contact_mail }}",
                                                             "type": "text",
                                                             "marks": [
                                                                 {
                                                                     "type": "link",
                                                                     "attrs": {
-                                                                        "href": "mailto:mustermann@firmaxyz.de"
+                                                                        "href": "mailto:{{ customer_contact_mail }}"
                                                                     }
                                                                 }
                                                             ]
